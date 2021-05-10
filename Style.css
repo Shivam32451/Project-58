@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background: rgb(13,242,23);
+background: radial-gradient(circle, rgba(13,242,23,1) 0%, rgba(237,12,12,1) 0%, rgba(80,29,253,1) 50%, rgba(166,0,255,1) 100%, rgba(238,250,21,1) 100%);
+    font-weight:bolder; 
+     font-size:25px;
+}
+p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right:30px;
+    cursor: pointer;
+    color: cornflowerblue;
+    position:absolute;
+    font-size: 10px;
+}
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color:black;
+}
+.links:hover{
+    color:aquamarine;
+    font-size: 25px;
+}
+.menu a{
+    color:black;
+    text-decoration:none; 
+}
